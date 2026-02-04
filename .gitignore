@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+saved_models/
+saved_checkpoints/
+checkpoints/
+
+# Logs
+log/
+logs/
+*.log
+
+# Data files (large datasets)
+data/*.csv
+data/*.txt
+!data/dummy.txt
+*.npy
+*.pkl
+*.pickle
+
+# Results
+results/
+output/
+experiments/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+*.cache
+
+# Edge lists and preprocessed data
+edge_list.csv
+node_features.csv
+
+# Model outputs
+*.hdf5
+*.h5
